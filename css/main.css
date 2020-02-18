@@ -1,0 +1,1020 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.list-style{
+	list-style: none;
+}
+
+.text-decoration{
+	text-decoration: none;
+}
+
+
+hr{
+	border-color: #0A2A2C;
+}
+
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+/*Header Styling CSS*/
+.header{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+:::::::::::::::::::::::::::::::::
+.head2{
+	float: right;
+}
+
+.sign{
+	float: right;
+	padding-left: 100px;
+}
+.sign form{
+	padding: 5px;
+}
+
+#call{
+	margin-top: 5px;
+	padding-left: 15px;
+	font-size: 20px;
+	color: #3E81B6;
+}
+
+.search-area{
+	width: 250px;
+	height: 35px;
+	background: #fff;
+	border: box;
+	border-radius: 5px;
+	float: left;
+	padding-right: 30px;
+}
+
+.search-btn{
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background: #241E20;
+    color: #fff;
+    margin: 0px -65px;
+}
+
+/* User menu Styling CSS*/
+#text{
+	float: left;
+    padding-top: 26px;
+}
+
+#user-menu{
+	width: 200px;
+	float: right;
+	margin-top: 20px;
+}
+
+#user-menu li{
+	float: left;
+	width: 140px;
+	text-align: right;
+	list-style: none;
+	font-size: 20px;
+	border-left: 2px solid #241E20;
+}
+
+#user-menu li a{
+	color: #241E20;
+	text-decoration: none;
+}
+
+#user-menu li:hover{
+	font-size: 21px;
+	border-left: 2px solid red;
+}
+#user-menu li a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+
+
+#imgL{
+	width: 100%;
+}
+
+
+
+/* Navigation Bar Styling CSS*/
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0; 
+}
+
+.navigation{
+	width: 100%;
+	height: auto;
+}
+
+.navigation ul {
+	padding-left: 170px;
+    overflow: hidden;
+    background: #241E20;
+}
+
+.navigation ul li {
+    float: left;
+}
+
+
+ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation li a:hover, .dropdown:hover .dropbtn {
+    background-color: #eee;
+    color: #0A2A2C;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#click{
+	background-color: #eee;
+    color: #0A2A2C;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+	background: #241E20;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+    border-radius: 4px;
+    text-align: left;
+    opacity: .9;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	font-weight: bold;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+
+/* Slider Styling CSS*/
+#slider{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	margin-bottom: -60px;
+	overflow: hidden;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a{
+	margin: 35px 5px;
+}
+
+
+
+/* Promotion-area Styling CSS*/
+.promo-area {
+	width: 105%;
+	height: auto;
+	overflow: hidden;
+	/*background: #eee;*/
+}
+
+/*.brands-area .zigzag-bottom{background: #f4f4f4}*/
+.single-promo {
+	width: 24%;
+    float: left;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 2px;
+    margin-left: 1px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
+.single-promo i, .sidebar-promo i{
+  font-size: 50px;
+}
+
+.sidebar-promo{
+	width: 90%;
+    font-size: 25px;
+    font-weight: 200;
+    padding: 24px 10px;
+    margin: 5px 3px;
+    text-align: center;
+}
+
+.single-promo:hover, .sidebar-promo:hover
+ {color: #fff;background: #222;}
+.promo1 { background:#5a88ca;}
+.promo2 { background:#ffd900;}
+.promo3 { background:#fa8072;}
+.promo4 { background:#4abebd;}
+
+
+
+:::::::::::::::::::::::::::::::::::
+
+/* --Main Conteiner Styling CSS*/
+.main-conteiner{
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.category h1, .latest h1{
+	color: #0A2A2C;
+	text-align: center;
+	padding: 20px;
+}
+
+.category{
+	width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 2px;
+    background: #eee;
+}
+
+
+.cat-box{
+	width: 250px;
+    height: 250px;
+    float: left;
+    margin: 2px 8px 5px 11px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cat-box span{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #0A2A2C;
+	opacity: .8;
+	font-size: 20px;
+	color: white;
+	display: block;
+	bottom: 30px;
+	position: absolute;
+	z-index: 999;
+	text-align: center;
+}
+
+.cat-box img{
+	width: 100%;
+	transition: all .5s ease;
+}
+
+.cat-box img:hover, .cat-box span:hover{
+	transform: scale(1.2,1.2);
+	transition: all .5s ease;
+	overflow: hidden;
+}
+
+
+
+/* Latest Collection Styling CSS*/
+.latest{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #eee;
+
+}
+
+
+#img-btn{
+	margin: 1px;
+    padding: 0;
+    width: 75px;
+    height: 362px;
+    border: 2px solid #0A2A2C;
+}
+
+.sidebar{
+	width: 24%;
+	max-height: auto;
+	margin: 0 auto;
+	/*margin-left: 5px;*/
+	padding: 20px;
+	float: left;
+	text-align: center;
+}
+
+.sidebar h3{ 
+	padding: 5px;
+    margin: -19px -39px 0px -19px;
+    text-align: center;
+    background: #0A2A2C;
+    color: #CED3DC;
+    font-size: 35px;
+}
+
+.sidebar input[type="button"]{
+	width: 175px;
+	margin: 10px;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: #0A2A2C;
+	color: #CED3DC;
+}
+
+#access input{
+	width: 215px;
+}
+	
+
+.sidebar input[type="button"]:hover{
+	background: #241E20;
+}
+
+
+
+.conteiner{
+	width: 72%;
+	float: right;
+}
+
+.newarrival, .formal, .semiformal{
+	width: 97%;
+    margin: 0 auto;
+    height: 850px;
+    margin-left: 15px;
+
+}
+
+.box{
+	width: 100%;
+	margin: 0 auto;
+	height: 1220px;
+}
+
+
+.newarrival h3, .formal h3, .semiformal h3{
+	background: #0A2A2C;
+    padding: 25px;
+    color: #CED3DC;
+    font-size: 35px;
+    text-align: center;
+    margin: 1px -14px 0px -9px;
+}
+
+.product{
+	padding: 6px;
+    border: 2px ;
+    margin: 1px;
+
+}
+
+.product a{
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	color: #241E20;
+	
+}
+
+.product a h4{
+	margin-top: 2px;
+}
+
+
+.product a p{
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+/*.product img:hover{
+	transform: scale(1.05,1.05);
+	transition: all .5s ease;
+	overflow: hidden;
+
+}*/
+.product a:hover{
+	color: red;	
+}
+
+
+
+/*-----------------------*/
+
+
+/*Footer-top Styling CSS*/
+.footer-top{
+	width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #241E20;
+	padding-top: 10px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-user-nav, .footer-catg, .footer-about-us{
+	width: 30%;
+	padding-left: 20px;
+	padding-right: 20px;
+	overflow: hidden;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.footer-user-nav h2, .footer-catg h2, .footer-about-us h2{	
+	border-bottom: 1px dashed #555;
+	padding-bottom: 15px;
+}
+
+.footer-catg h3{
+	padding-top: 5px;
+	padding-left: 10px;
+	color: #3B82B8;
+}
+
+.footer-about-us p{
+	font-size: 18px;
+	padding-top: 10px;
+	color: #555;
+}
+
+.footer-user-nav li> a, .footer-catg li> a{
+	text-decoration: none;
+	color: #555;
+	font-size: 20px;
+	display: inline-block;
+	padding-left: 25px;
+	padding-bottom: 5px;
+}
+.footer-user-nav li> a{padding-top: 10px}
+
+.footer-catg a h3{
+	text-decoration: none;
+	color: #555;
+	font-size: 20px;
+	display: inline-block;
+	padding-bottom: 5px;
+}
+
+
+.footer-user-nav li> a:hover, .footer-catg li> a:hover,
+.footer-catg a h3:hover{
+	color: #98D1E4;
+	text-decoration: underline;
+}
+
+
+
+.footer-social a {
+  background: none repeat scroll 0 0 #5a88ca;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 30px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  text-align: center;
+  width: 40px;border: 1px solid #5a88ca;
+}
+
+.footer-social a:hover {
+	background-color: #222;
+	border-color: #666
+}
+
+.footer-social {
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+
+/*Footer Styling CSS*/
+.footer{
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #0A2A2C;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.copyright{
+	width: 45%;
+	padding-left: 20px;
+	margin-top: 13px;
+}
+
+.footer-card {
+	width: 45%;
+  	font-size: 35px;
+  	padding-right: 30px;
+  	text-align: right;
+}
+
+
+
+/*Login Page CSS*/
+.login, .signup{
+	background: #eee;
+	font-size: 25px;
+	color: #241E20;
+    padding: 40px;
+    text-align: center;
+}
+
+.signup h3{
+    background: #0A2A2C;
+	color: #3B82B8;
+	margin:0 27%;
+	margin-top: 15px;
+	padding: 20px;
+	border-radius: 10px 10px 0 0 ;
+	text-align: center;
+	font-size: 30px;
+}
+
+.login button, .signup button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #1AB188;
+    color: #fff;
+    
+}
+
+.login button a,.signup button a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.login button:hover, .signup button:hover{
+	background: #107056;
+}
+
+
+#login-box{
+	background: #24303C;
+	margin:0 31%;
+	margin-top: 15px;
+	color: white;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: right;
+}
+
+#signup-box{
+	background: #24303C;
+    margin: 0 27%;
+    margin-top: 0px;
+    color: white;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    text-align: right
+}
+
+form a{
+	color: #98D1E4;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+form a:hover{
+	color: #1AB188;
+	text-decoration: underline;
+}
+
+#signup-box input[type="text"],
+#confirm-box input[type="text"],
+#message-box input[type="text"],
+#confirm-box input[type="text"],
+#signup-box input[type="password"],
+#login-box input[type="password"],
+#signup-box input[type="email"],
+#login-box input[type="email"],
+#message-box input[type="email"]{
+  	width: 300px;
+	height: 30px;
+	border: box;
+	margin: 5px;
+	padding-left: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 15px;
+}
+
+
+#login-box input[type="submit"], 
+#signup-box input[type="submit"]{
+	width: 80px;
+	height: 38px;
+	padding: 10px;
+ 	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	background: #1AB188;
+	color: white;
+}
+
+#login-box input[type="submit"]:hover, 
+#signup-box input[type="submit"]:hover{
+	background: #107056;
+}
+
+/* Contact styling CSS*/
+.contact, .about-us{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #eee;
+	font-size: 25px;
+	color: #241E20;
+    padding: 20px 0px;
+}
+
+
+.contact h3, .about-us h3{ 
+	padding: 5px;
+    margin: -19px -19px 0px -19px;
+    text-align: center;
+    background: #0A2A2C;
+    color: #CED3DC;
+    font-size: 35px;
+}
+
+.contact-us{
+	width: 50%;
+	padding: 10px;
+	padding-left: 120px;
+
+	
+}
+
+.message-us{
+	width: 45%;
+	padding: 10px;
+	margin: 0px -120px;
+}
+
+.contact-us p{
+	padding: 15px;
+	color: #08020A;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.contact-us h4{
+	padding-top: 25px;
+    color: #214968;
+    font-size: 30px;
+    text-align: center;
+}
+
+#callus{
+	margin-left: -30px;
+	font-size: 30px;
+	color: #540303;
+}
+
+#message-box{
+	background: #24303C;
+	margin: 0px 100px 0px 100px; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#message-box h3{
+    background: none;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#message-box textarea{
+	width: 300px;
+	height: 150px;
+	border: box;
+	margin: 5px;
+	padding-left: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 15px;
+ 	transition: 0.2s ease;
+}
+
+#message-box input[type="submit"],
+#confirm-box input[type="submit"]{
+	width: 310px;
+	height: 38px;
+	padding: 10px;
+ 	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	background: #1AB188;
+	color: white;
+}
+
+#message-box input[type="submit"]:hover,
+#confirm-box input[type="submit"]:hover{
+	background: #107056;
+}
+
+/* About-Us Styling CSS*/
+.details{
+	width: 45%;
+	height: auto;
+	margin: 20px;
+}
+
+.info{
+	width: 45%;
+	height: auto;
+	margin: 20px 45px;
+}
+
+.about-us h4{
+	margin: 10px;
+	padding-top: 10px;
+	color: #0A2A2C;
+}
+
+.about-us p{
+	margin: 10px;
+	font-size: 20px;
+	color: #555	;
+}
+
+
+/* Single Product Page Styling CSS*/
+.product-img{
+	width: 45%;
+	height: auto;
+	padding: 5px;
+
+}
+
+.product-img img{
+	width: 600px;
+	height: 
+}
+
+.product-info{
+	width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.product-info h2{
+	color: #0A2A2C;
+	padding-bottom: 5px;
+	font-size: 30px;
+}
+
+.product-info h3{
+	color: #314D68;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.product-info h4{
+	color: #314D68;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	padding-top: 35px;
+	font-size: 22px;
+}
+
+.product-info p{
+	color: #008052;
+	font-size: 18px;
+	font-weight: bold;
+    margin: -42px 0px 0px 192px;
+}
+
+#taka{
+	margin:-46px 0px 0px 80px;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+}#code{
+	margin:-46px 0px 0px 170px;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+}
+
+.product-info li{
+	padding-left: 40px;
+	font-size: 20px;
+	padding-bottom: 10px;
+	font-weight: bold;
+}
+
+.product-info hr{
+	border-color: white;
+}
+
+.product-info button{
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+	padding: 10px;
+ 	font-weight: bold;
+ 	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background: #0A2A2C;
+	color: white;
+}
+
+#size{
+	width: 50px;
+	height: 50px;
+	margin-left: 20px;
+	padding: 10px;
+ 	font-weight: bold;
+ 	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background: #0A2A2C;
+	color: white;
+}
+
+
+.product-info button:hover, #size:hover{
+	background: #241E20;
+}
+
+/* MyCart Styling CSS*/
+.mycart{
+	width: 100%;
+	height: auto;
+}
+
+.mycart h3{ 
+	margin:1px 210px;
+	padding: 5px;
+    text-align: center;
+    background: #0A2A2C;
+    color: #CED3DC;
+    font-size: 35px;
+}
+
+#table{
+
+	margin: 20px 210px;
+	align-items: center;
+	background: white;
+}
+
+table{
+	width: 100%;	
+	color: #001a33;	
+	border: 3px solid #ddd;
+	text-align: center;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#table img{
+	width: 80px;
+	height: 100px;
+}
+
+#table button{
+	padding: 5px;
+	margin: 5px;
+	background: white;
+	color: black;
+	border: 1px solid #ddd;
+}
+
+#table button:hover{
+	background: #BC2717;
+	color: white;
+}
+
+#oreder-btn{
+	margin-right: 180px;
+}
+
+
+#oreder-btn button{
+	margin-right: 30px;
+	margin-bottom: 20px;
+	width: 190px;
+	height: 60px;
+	padding: 10px;
+ 	font-weight: bold;
+ 	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	background: #0A2A2C;
+	color: white;
+}
+
+#oreder-btn button:hover{
+	background: #241E20;
+	
+}
+
+/*Confirm Styling CSS*/
+.confirm h3{ 
+	padding: 5px;
+    margin: 1px 0;
+    text-align: center;
+    background: #0A2A2C;
+    color: #CED3DC;
+    font-size: 35px;
+}
+
+#confirm-box{
+	background: #24303C;
+	margin: 10px 450px; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+}

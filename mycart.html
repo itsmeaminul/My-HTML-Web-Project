@@ -1,0 +1,188 @@
+<!--
+Authar: Md. Aminul Islam
+Date  : 13/12/2017
+email : aminulbrur8@gmail.com
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Cart</title>
+	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<hr>
+
+		<!-- Header Starts from here -->
+		<div class="header">
+				<img src="images/itsuitsyou.jpg">
+				<div class="float-right">
+					<!-- <img class="himg" src="images/oec.jpg"> -->
+					<img class="himg" src="images/e-commerce-banner.jpg">
+
+					<div class="sign float-right">
+						<div id="call"><i class="fa fa-phone" aria-hidden="true"></i> 01234567891</div>
+
+						<form action="">
+
+							<input class="search-area" type="text" name="text" placeholder="Search Here..">
+							<input class="search-btn" type="submit" name="submit" value="SEARCH">
+						</form>
+
+						<div id="text">
+							<img src="images/oec.jpg">
+						</div>
+
+						<div id="user-menu">
+							<li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> LOG IN</a></li>
+							<li><a href="signup.html"><i class="fa fa-user-plus" aria-hidden="true"></i> SIGN UP</a></li>
+							<li><a href="mycart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> MY CART</a></li>
+							
+						</div>		
+					</div>
+				</div>
+		</div>
+		<img id="imgL" src="images/heading_thin_icon.PNG">
+		<!-- Header Ends here -->
+
+
+		
+		<!-- Navigation-Bar Start from here -->
+		<div class="navigation sticky">
+			<ul class="list-style">
+			  <li><a href="index.html">HOME</a></li>
+			  <li class="dropdown">
+			    <a class="dropbtn">SUIT/BLAZER</a>
+			    <div class="dropdown-content">
+			      <a href="mans_suit.html">MEN</a>
+			      <a href="womans_suit.html">WOMEN</a>
+			      <a href="kids_suit.html">KIDS</a>
+			    </div>
+			  </li>
+
+			  <li><a href="accessories.html">SUIT ASSECCORIES</a></li>
+			  <li><a href="offers.html">OFFERS</a></li>
+			  <li><a href="contact.html">CONTACT</a></li>
+			  <li><a id="click" href="mycart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CART</a></li>
+			  <li><a href="aboutus.html">ABOUT US</a></li>
+			</ul>
+		</div>
+		<!-- Navigation-Bar Ends here -->
+
+		
+		<!-- Main Conteiner Strats from here -->
+		<div class="main-conteiner">
+			<!-- My-cart Starts from here -->
+			<div class="mycart">
+				<h3>SHOPPING CART</h3>
+
+				<div id="table">
+					<table>
+						<tr>
+							<th colspan="2">Product Name</th>
+							<th>Unit Price</th>
+							<th>Quantity</th>
+							<th>Subtotal</th>
+						</tr>
+					
+						<tr>
+							<td><img src="images/single.jpg"></td>
+							<td>Men's casual Blazer -Grey
+							<button title="Remove item"><i class="fa fa-times" aria-hidden="true"></i></button>
+							</td>
+							<td>3,500</td>
+							<td><button><i class="fa fa-minus" aria-hidden="true"></i></button> 1 <button><i class="fa fa-plus" aria-hidden="true"></i></button></td>
+							<td>3,500</td>
+						</tr>
+							
+						<tr>
+							<td colspan="4">TOTAL</td>
+							<td>3,500</td>
+						</tr>
+					
+					</table>
+				</div>
+				<div id="oreder-btn" class="float-right">
+
+					<a href="index.html"><button>Add more Product</button></a>
+					<a href="chechout.html"><button>ORDER NOW</button></a>		
+				</div>
+			</div>
+			<!-- My-cart Ends her -->
+		</div>
+		<!-- Main Conteiner Ends Here -->
+			
+		<!-- Footer-Top Starts from here  -->
+		<div class="footer-top">
+			<div class="footer-about-us float-left">
+				<h2>About Us</h2>
+				<p>OURStore is an online shopping site that has made it possible for consumers even in the remote areas of Bangladesh to avail Suits/Blazers at low prices online.</p>
+
+				<div class="footer-social">
+                    <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                </div>
+			</div>
+
+			<div class="footer-user-nav list-style float-left">
+				<h2>User Navigation</h2>
+				<li><a href="login.html"><i class="fa fa-sign-in" aria-hidden="true"></i> Log in</a></li>
+				<li><a href="signup.html"><i class="fa fa-user-plus" aria-hidden="true"></i> Sign Up</a></li>
+				<li><a href="mycart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart</a></li>
+				<li><a href="contact.html"><i class="fa fa-phone"></i> Contact Us</a></li>
+
+			</div>
+
+			<div class="footer-catg list-style float-right">
+				<h2>Product Categories</h2>
+
+				<h3>Suit/Blazer</h3>
+				<li><a href="mans_suit.html">Men</a></li>
+				<li><a href="womans_suit.html">Women</a></li>
+				<li><a href="kids_suit.html">Kids</a></li>
+				
+
+				<a class="text-decoration" href="accessories.html"><h3>Suit Accessories</h3></a><br>
+
+				<a class="text-decoration" href="offers.html"><h3>Offers</h3></a>
+			</div>
+		</div>
+		<!-- Footer-Top Ends here  -->
+		
+
+
+
+
+		<!-- Footer Start from here -->
+		<div class="footer">
+			<div class="copyright float-left">
+				<p>&copy 2017 OURS Foundation, All Rights Reserved</p>
+			</div>
+
+			<div class="footer-card float-right">
+				<i class="fa fa-cc-discover"></i>
+                <i class="fa fa-cc-mastercard"></i>
+                <i class="fa fa-cc-paypal"></i>
+                <i class="fa fa-cc-visa"></i>
+			</div>
+			
+		</div>
+
+	</div>
+
+
+
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

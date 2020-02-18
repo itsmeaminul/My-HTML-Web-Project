@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.list-style{
+	list-style: none;
+}
+
+.text-decoration{
+	text-decoration: none;
+}
+
+
+/* header styling CSS*/
+.header{
+	width: 100%;
+	height: 164px;
+	margin: 0 auto;
+	background-image: url("../images/banner-admin-panel1.jpg");
+	background-repeat: no-repeat;
+}
+
+.logo{
+	height: 159px;
+}
+
+.text{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+	padding: 20px;
+	color: #2F4076;
+}
+
+/* menu Styling CSS*/
+.menu li{
+	float: left;
+	padding-right: 30px;
+	margin-top: 135px;
+	font-size: 20px;
+}
+
+.menu li a:hover{
+	color: red;
+}
+
+
+/* main-conteiner Styling CSS*/
+.main-conteiner{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.main-conteiner h1{
+	background: ;
+	color: #2F4076;
+	text-align: center;
+}
+
+
+
+/*Login Page CSS*/
+.login{
+	width: 100%;
+	height: 368px;
+	background: #eee;
+	font-size: 25px;
+	color: #107056;
+	margin-top: -5px;
+    padding-top: 45px;
+    text-align: center;
+
+}
+
+
+#login-box{
+	background: #2F4076;
+	margin:0 31%;
+	margin-top: 15px;
+	color: white;
+	padding: 30px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+
+#login-box input[type="password"],
+#login-box input[type="text"]{
+  	width: 300px;
+	height: 30px;
+	border: box;
+	margin: 5px;
+	padding-left: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 15px;
+ 	transition: 0.2s ease;
+}
+
+
+#login-box input[type="submit"]{
+	width: 310px;
+	height: 38px;
+	margin-top: 5px;
+	border: none;
+	border-radius: 5px;
+	background: #1AB188;
+	color: white;
+	font-size: 20px;
+
+}
+
+#login-box input[type="submit"]:hover{
+	background: #107056;
+}
+
+.main-conteiner h1{
+	font-size: 35px;
+	padding: 15px;
+}
+
+/*Sidebar styling CSS*/
+.sidebar{
+	width: 15%;
+	height: auto;
+	margin: 0 auto;
+	/*background: lightblue;*/
+	padding-left: 10px;
+
+}
+
+
+
+.sidebar li a{
+    display: block;
+    color: #2F4076;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 30px;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar li a:hover{
+    background-color: lightblue;
+    color: #0A2A2C;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#click{
+	background-color: #eee;
+    color: #0A2A2C;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.conteiner{
+	width: 75%;
+	height: auto;
+	margin: 0 auto;
+	background: #eee;
+	padding: 30px;
+}
+
+
+
+/* MyCart Styling CSS*/
+.product-table{
+	width: 100%;
+	height: auto;
+}
+
+.product-table h2{ 
+	margin: -30px -30px 0px -30px;
+	padding: 5px;
+    text-align: center;
+    background: #2F4076;
+    color: #CED3DC;
+    font-size: 35px;
+}
+
+#table{
+
+	margin: 10px;
+	align-items: center;
+	background: white;
+}
+
+table{
+	margin-top: 25px;
+	width: 100%;	
+	color: #001a33;	
+	border: 3px solid #ddd;
+	text-align: center;
+	font-family: arial, sans-serif;
+    border-collapse: collapse;
+    /*font-size: 20px;*/
+}
+
+td, th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 5px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#table img{
+	width: 80px;
+	height: 100px;
+}
+
+#table button{
+	padding: 5px;
+	margin: 5px;
+	background: white;
+	color: black;
+	border: 1px solid #ddd;
+}
+
+#table button:hover{
+	background: #BC2717;
+	color: white;
+}
+
+#table input[type="text"]{
+	width: 150px;
+    height: 30px;
+    border: box;
+    margin: -10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+#add-box, #edit-box{
+	background: #24303C;
+	margin: 12px 100px -15px 100px; 
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    /*text-align: center;*/
+}
+
+#edit-box{
+	text-align: center;
+}
+
+#add-box h2{
+    background: none;
+    height: auto;
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+}
+
+#add-box p{
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+#add-box h3{
+	padding-left: 10px;
+	margin-top: 10px;
+}
+
+#add-box input[type="text"],
+#edit-box input[type="text"],
+#add-box input[type="file"]{
+  	width: 300px;
+	height: 30px;
+	border: box;
+	margin: 5px;
+	padding-left: 5px;
+	font-size: 15px;
+	border-radius: 5px;
+  	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 15px;
+ 	transition: 0.2s ease;
+}
+
+
+#add-box input[type="submit"]{
+	width: 310px;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: #1AB188;
+    color: white;
+    margin-left: 240px;
+    font-size: 20px;
+}
+
+#edit-box input[type="submit"]{
+	width: 310px;
+    height: 50px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: #1AB188;
+    color: white;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#add-box input[type="submit"]:hover,
+#edit-box input[type="submit"]:hover{
+	background: #107056;
+}
+
+
+
+/*Footer Styling CSS*/
+.footer{
+	width: 100%;
+	height: 25px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #2F4076;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.copyright{
+	width: 45%;
+	padding-left: 20px;
+	margin-top: 12px;
+}
+
+.footer-card {
+	width: 45%;
+  	font-size: 35px;
+  	padding-right: 30px;
+  	text-align: right;
+}

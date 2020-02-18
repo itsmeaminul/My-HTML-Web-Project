@@ -1,0 +1,94 @@
+<!--
+Authar: Md. Aminul Islam
+Date  : 13/12/2017
+email : aminulbrur8@gmail.com
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Pannel</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/adminpannel.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="header">
+			<div class="menu float-right list-style">
+				<li><i class="fa fa-user" aria-hidden="true"></i> ADMIN</li>
+				<li><a class="text-decoration" href="index-adminpanel.html"><i class="fa fa-sign-out" aria-hidden="true"></i> LOG OUT</a></li>
+			</div>
+		</div>
+
+		<!-- Main-conteiner Starts from here -->
+		<div class="main-conteiner">
+			<h1>WELOME TO OURStore</h1>
+
+			<!-- Sidebar Start from here -->
+			<div class="sidebar list-style float-left">	
+			  <li><a id="click" href="#">ADD PRODUCT</a></li>
+			  <li><a href="edit-product.html">EDIT PRODUCT</a></li>
+			  <li><a href="orders.html">ORDERS</a></li>
+				
+			</div>
+			<!-- Sidebar Ends from here -->
+
+			<div class="conteiner float-left">
+
+				<!-- Add Product Starts from here -->
+				<div class="product-table">
+					<h2>ADD A PRODUCT</h2>
+
+					<form id="add-box" action="">
+							<input type="text" name="name" placeholder="Product Name" required="">
+							<input type="text" name="id" placeholder="Product ID" required=""><br>
+							
+							<h2>Product Quick Overview</h2>
+							<input type="text" name="details" placeholder="Details">
+							<input type="text" name="fit" placeholder="Fit">
+							<input type="text" name="style" placeholder="Style">
+							<input type="text" name="color" placeholder="Color">
+							<input type="text" name="others" placeholder="Others">
+							<input type="text" name="size" placeholder="Available Size">
+							<input type="text" name="price" placeholder="Pice"> &nbsp
+							<b>Add Image:</b>
+							<input type="file" name="image"><br>
+						
+							<!-- <h2>Product Category</h2><hr> -->
+							<h3>Select Product Category</h3>
+							<p>
+								<input type="radio" name="select">Men's Product<br>
+								<input type="radio" name="select">Women's Product <br>
+								<input type="radio" name="select">Kid's Product<br>
+								<input type="radio" name="select">Accessories<br>
+							</p>
+							
+							<br>
+							<input type="submit" name="send" value="ADD PRODUCT">
+						</form>
+				</div>
+				<!-- Add Product Ends her -->
+
+			</div>
+		</div>
+		<!-- Main-conteiner Ends here -->
+
+
+		<!-- Footer Start from here -->
+		<div class="footer">
+			<div class="copyright float-left">
+				<p>&copy 2017 OURS Foundation, All Rights Reserved</p>
+			</div>
+
+			<div class="footer-card float-right">
+				<i class="fa fa-cc-discover"></i>
+                <i class="fa fa-cc-mastercard"></i>
+                <i class="fa fa-cc-paypal"></i>
+                <i class="fa fa-cc-visa"></i>
+			</div>
+		<!-- Footer Ends from here -->
+	</div>
+
+	<script type="text/javascript" src="js/adminpannel.js"></script>
+</body>
+</html>
